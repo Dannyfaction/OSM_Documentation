@@ -86,12 +86,25 @@ $(document).ready(function(){initNavTree('_create_system__example_8cpp-example.h
 </div><!--header-->
 <div class="contents">
 <p>This is an example of how to use the CreateSystem function of the ECS.</p>
-<div class="fragment"><div class="line"><span class="keywordtype">void</span> main()</div>
+<div class="fragment"><div class="line"><span class="keyword">class </span>TowerDefense : <span class="keyword">public</span> <a name="_a0"></a><a class="code" href="class_osm_1_1_system.html">Osm::System</a></div>
 <div class="line">{</div>
-<div class="line">    <a name="a0"></a><a class="code" href="namespace_osm.html#af34dcd3bb0659d055ff96848c2f6808a">Engine</a>.<a name="a1"></a><a class="code" href="class_osm_1_1_engine_manager.html#ae5028225f30cbd82f75089d057fdf039">ECS</a>.<a name="a2"></a><a class="code" href="class_osm_1_1_entity_component_system.html#ace02ad3242798a04d31572e87565bc13">CreateSystem</a>&lt;TowerDefense&gt;();</div>
+<div class="line"><span class="keyword">public</span>:</div>
+<div class="line">    TowerDefense();</div>
+<div class="line">    ~TowerDefense() <span class="keyword">override</span>;</div>
+<div class="line">    <span class="keywordtype">void</span> <a name="a1"></a><a class="code" href="class_osm_1_1_system.html#a243e0f8a6d164e6df10b1c4907ffb3ab">Update</a>(<span class="keywordtype">float</span> dt) <span class="keyword">override</span>;</div>
+<div class="line"> </div>
+<div class="line"><span class="keyword">protected</span>:</div>
+<div class="line">    <span class="keywordtype">float</span> m_time = 1.0f;</div>
+<div class="line">};</div>
+<div class="line"> </div>
+<div class="line"><span class="keywordtype">void</span> main()</div>
+<div class="line">{</div>
+<div class="line">    <a name="a2"></a><a class="code" href="namespace_osm.html#af34dcd3bb0659d055ff96848c2f6808a">Engine</a>.<a name="a3"></a><a class="code" href="class_osm_1_1_engine_manager.html#ae5028225f30cbd82f75089d057fdf039">ECS</a>.<a name="a4"></a><a class="code" href="class_osm_1_1_entity_component_system.html#ace02ad3242798a04d31572e87565bc13">CreateSystem</a>&lt;TowerDefense&gt;();</div>
 <div class="line">}</div>
 <div class="ttc" id="aclass_osm_1_1_engine_manager_html_ae5028225f30cbd82f75089d057fdf039"><div class="ttname"><a href="class_osm_1_1_engine_manager.html#ae5028225f30cbd82f75089d057fdf039">Osm::EngineManager::ECS</a></div><div class="ttdeci">EntityComponentSystem ECS</div><div class="ttdef"><b>Definition:</b> Engine.h:31</div></div>
 <div class="ttc" id="aclass_osm_1_1_entity_component_system_html_ace02ad3242798a04d31572e87565bc13"><div class="ttname"><a href="class_osm_1_1_entity_component_system.html#ace02ad3242798a04d31572e87565bc13">Osm::EntityComponentSystem::CreateSystem</a></div><div class="ttdeci">T &amp; CreateSystem(Args &amp;&amp;... args)</div><div class="ttdef"><b>Definition:</b> ECS.h:51</div></div>
+<div class="ttc" id="aclass_osm_1_1_system_html"><div class="ttname"><a href="class_osm_1_1_system.html">Osm::System</a></div><div class="ttdef"><b>Definition:</b> ECS.h:17</div></div>
+<div class="ttc" id="aclass_osm_1_1_system_html_a243e0f8a6d164e6df10b1c4907ffb3ab"><div class="ttname"><a href="class_osm_1_1_system.html#a243e0f8a6d164e6df10b1c4907ffb3ab">Osm::System::Update</a></div><div class="ttdeci">virtual void Update(float dt)=0</div></div>
 <div class="ttc" id="anamespace_osm_html_af34dcd3bb0659d055ff96848c2f6808a"><div class="ttname"><a href="namespace_osm.html#af34dcd3bb0659d055ff96848c2f6808a">Osm::Engine</a></div><div class="ttdeci">EngineManager Engine</div></div>
 </div><!-- fragment --> </div><!-- contents -->
 </div><!-- doc-content -->
