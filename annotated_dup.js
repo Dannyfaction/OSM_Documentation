@@ -1,0 +1,38 @@
+var annotated_dup =
+[
+    [ "Osm", "namespace_osm.html", [
+      [ "System", "class_osm_1_1_system.html", "class_osm_1_1_system" ],
+      [ "EntityComponentSystem", "class_osm_1_1_entity_component_system.html", "class_osm_1_1_entity_component_system" ],
+      [ "EngineManager", "class_osm_1_1_engine_manager.html", "class_osm_1_1_engine_manager" ],
+      [ "Resource", "class_osm_1_1_resource.html", "class_osm_1_1_resource" ],
+      [ "ResourceManager", "class_osm_1_1_resource_manager.html", "class_osm_1_1_resource_manager" ],
+      [ "Transform", "struct_osm_1_1_transform.html", "struct_osm_1_1_transform" ],
+      [ "DebugRenderManager", "class_osm_1_1_debug_render_manager.html", "class_osm_1_1_debug_render_manager" ],
+      [ "Mesh", "class_osm_1_1_mesh.html", "class_osm_1_1_mesh" ],
+      [ "Model", "class_osm_1_1_model.html", "class_osm_1_1_model" ],
+      [ "Material", "struct_osm_1_1_material.html", "struct_osm_1_1_material" ],
+      [ "Camera", "struct_osm_1_1_camera.html", "struct_osm_1_1_camera" ],
+      [ "MeshRender", "struct_osm_1_1_mesh_render.html", "struct_osm_1_1_mesh_render" ],
+      [ "Light", "struct_osm_1_1_light.html", "struct_osm_1_1_light" ],
+      [ "RenderManager", "class_osm_1_1_render_manager.html", "class_osm_1_1_render_manager" ],
+      [ "ShaderParameter", "class_osm_1_1_shader_parameter.html", "class_osm_1_1_shader_parameter" ],
+      [ "ShaderAttribute", "class_osm_1_1_shader_attribute.html", "class_osm_1_1_shader_attribute" ],
+      [ "Shader", "class_osm_1_1_shader.html", "class_osm_1_1_shader" ],
+      [ "Sampler", "struct_osm_1_1_sampler.html", "struct_osm_1_1_sampler" ],
+      [ "Texture", "struct_osm_1_1_texture.html", "struct_osm_1_1_texture" ],
+      [ "Image", "class_osm_1_1_image.html", "class_osm_1_1_image" ],
+      [ "Joystick", "class_osm_1_1_joystick.html", "class_osm_1_1_joystick" ],
+      [ "MouseState", "struct_osm_1_1_mouse_state.html", "struct_osm_1_1_mouse_state" ],
+      [ "InputManager", "class_osm_1_1_input_manager.html", "class_osm_1_1_input_manager" ],
+      [ "GLFWInput", "class_osm_1_1_g_l_f_w_input.html", "class_osm_1_1_g_l_f_w_input" ],
+      [ "PCDevice", "class_osm_1_1_p_c_device.html", "class_osm_1_1_p_c_device" ],
+      [ "SwitchAccount", "class_osm_1_1_switch_account.html", "class_osm_1_1_switch_account" ],
+      [ "SwitchDevice", "class_osm_1_1_switch_device.html", "class_osm_1_1_switch_device" ],
+      [ "SwitchInput", "class_osm_1_1_switch_input.html", "class_osm_1_1_switch_input" ],
+      [ "bitmask", "class_osm_1_1bitmask.html", "class_osm_1_1bitmask" ],
+      [ "InspectorName", "struct_osm_1_1_inspector_name.html", "struct_osm_1_1_inspector_name" ],
+      [ "Inspector", "class_osm_1_1_inspector.html", "class_osm_1_1_inspector" ],
+      [ "ShaderPreprocessor", "class_osm_1_1_shader_preprocessor.html", "class_osm_1_1_shader_preprocessor" ],
+      [ "ByteBuffer", "struct_osm_1_1_byte_buffer.html", "struct_osm_1_1_byte_buffer" ]
+    ] ]
+];
